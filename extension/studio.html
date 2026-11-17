@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Clone Army · Camera studio</title><link rel="stylesheet" href="studio.css"></head>
+<body>
+  <header><a class="brand" href="studio.html"><span class="brand-icon">♟♟</span> Clone Army<span class="badge">LAB 001</span></a><span class="local"><i></i> Local camera effects</span></header>
+  <main>
+    <section class="intro"><div class="eyebrow">YOUR PERSONAL BACKUP HAS ARRIVED</div><h1>One you.<br><em>A whole army.</em></h1><p>Your moves. Your expressions. Three or five of you,<br>all in perfect company.</p></section>
+    <section class="stage" aria-label="Camera preview">
+      <div class="stage-top"><span>CAMERA STUDIO</span><span id="camera-status">CAMERA OFF</span></div>
+      <video id="preview" autoplay playsinline muted></video>
+      <div id="placeholder" class="placeholder"><div class="silhouettes" aria-hidden="true"><span></span><span></span><span></span></div><h2>Meet your other selves.</h2><p>Try your army here before taking it into a meeting.</p><button id="start" class="primary">Enable camera <span>↗</span></button><small>Your preview stays on this device. No meeting is started.</small></div>
+      <div class="stage-bottom"><span id="studio-message" role="status">Make room for a few more yous.</span><button id="stop" hidden>Stop camera</button></div>
+    </section>
+    <section class="steps"><article><span>01</span><h3>Set the scene</h3><p>Enable your camera. Capture the empty room using the floating panel.</p></article><article><span>02</span><h3>Call in backup</h3><p>Return to frame, then summon your clones. Move around. They move with you.</p></article><article><span>03</span><h3>Make an entrance</h3><p>Try snap detection. In Meet, switch off other camera effects and use the same controls.</p></article></section>
+    <footer><span>Built for a little meeting mischief.</span><a href="https://meet.google.com/" target="_blank" rel="noreferrer">Open Google Meet ↗</a></footer>
+  </main>
+  <script src="clone-renderer.js"></script><script src="main-world.js"></script><script src="bridge.js"></script><script src="studio.js"></script>
+</body></html>

@@ -1,0 +1,1 @@
+{"name":"clone-army-for-meet","version":"0.1.0","private":true,"scripts":{"test":"node tests/media.cjs && node tests/background.cjs"}}
